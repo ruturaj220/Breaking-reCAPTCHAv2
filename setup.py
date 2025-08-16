@@ -1,0 +1,34 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="breakcaptcha",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "matplotlib==3.7.1",
+        "njord==0.0.2",
+        "numpy==1.24.3",
+        "opencv_python==4.7.0.72",
+        "opencv_python_headless==4.8.1.78",
+        "pandas==2.2.0",
+        "Pillow==10.2.0",
+        "pynput==1.7.6",
+        "Requests==2.31.0",
+        "scipy==1.12.0",
+        "seaborn==0.13.2",
+        "selenium==4.17.2",
+        "shap==0.44.0",
+        "tensorflow",
+        "torch==2.1.1",
+        "torchvision==0.16.1",
+        "tqdm==4.65.0",
+        "ultralytics==8.0.217",
+        "Yolo==0.3.2"
+    ],
+    author="Ruturaj Vaskar",
+    description="A practice project for solving reCAPTCHA v2 (educational use only)",
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
+    python_requires=">=3.8",
+)
+

@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+breakcaptcha/__init__.py
+breakcaptcha/solve_recaptcha.py
+breakcaptcha/test_enviorment.py
+breakcaptcha.egg-info/PKG-INFO
+breakcaptcha.egg-info/SOURCES.txt
+breakcaptcha.egg-info/dependency_links.txt
+breakcaptcha.egg-info/requires.txt
+breakcaptcha.egg-info/top_level.txt
